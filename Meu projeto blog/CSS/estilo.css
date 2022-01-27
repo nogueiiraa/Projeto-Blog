@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;,
+	background: #e6e6e6;
+}
+
+#cabecalho {
+	text-align: center;
+	background-color: #4169E1;
+	padding: 15px;
+	border-top: solid white 0.8em;
+
+}
+
+#logo #menu{
+	padding: 10px;
+}
+
+#menu {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#postagens {
+	width: 660px;
+	float: left;
+}
+
+#projetos p {
+	padding: 0.5em;
+	color: #363636;
+}
+
+.tituloprojeto {
+	
+	display: block;
+	margin-left: 1em;
+	color: #708090;
+
+}
+
+/* 
+****** Formatações em link ******** 
+*/
+
+a {
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:link, a:visited {
+	color: #0000CD;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#cabecalho a:hover {
+	color:#4682B4;
+	text-decoration: none;
+	background: #FFF;
+}
+
+
+
+
+/* 
+****** Formatações em geral ******** 
+*/
+
+h1 {
+	color: ##1C1C1C;
+	font-size: 2.5em;
+}
+
+h2 {
+	color:#4682B4;
+	padding : 1em;
+	text-align: center;
+}
+
+.branco {
+	color: white;
+}
